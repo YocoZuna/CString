@@ -23,10 +23,17 @@ TEST(CStringTestGroup,CreateString)
     tekst = CString_CreateString("Ala ma kota");
     TEST_ASSERT_EQUAL_STRING("Ala ma kota","Ala ma kota");
 }
+TEST(CStringTestGroup,DestroyString)
+{
+    
+    CString_DestroyString(&tekst);
+    TEST_ASSERT_EQUAL(NULL,tekst);
+}
 
 TEST_GROUP_RUNNER(CStringTestGroup)
 {
     RUN_TEST_CASE(CStringTestGroup,CreateString);
+    RUN_TEST_CASE(CStringTestGroup,DestroyString);
 }
 int main(int argc , char** argv ){
 

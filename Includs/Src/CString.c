@@ -14,3 +14,7 @@ CString* CString_CreateString(char stringToCreate[])
 
     return temp;
 }
+void CString_DestroyString(CString** stringToDestroy)
+{
+    *stringToDestroy = NULL;
+}

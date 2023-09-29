@@ -11,5 +11,5 @@ typedef struct
     char string[];
 }CString;
 
-
+void CString_DestroyString(CString** stringToDestroy);
 CString* CString_CreateString(char stringToCreate[]);
