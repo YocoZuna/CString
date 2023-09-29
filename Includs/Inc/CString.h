@@ -13,3 +13,5 @@ typedef struct
 
 void CString_DestroyString(CString** stringToDestroy);
 CString* CString_CreateString(char stringToCreate[]);
+
+size_t CString_ReturnStringLength(CString* string);

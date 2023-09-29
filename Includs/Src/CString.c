@@ -18,3 +18,8 @@ void CString_DestroyString(CString** stringToDestroy)
 {
     *stringToDestroy = NULL;
 }
+
+size_t CString_ReturnStringLength(CString* string)
+{
+    return string->lenght;
+}
