@@ -30,7 +30,7 @@ void CString_ReplaceString(CString* string,const  char stringToCreate[])
 {
     size_t lenOld  = string->lenght;
     size_t lenNew  = sizeof(stringToCreate);
-    if (lenOld==lenNew)
+    if (lenNew<=lenOld)
     {
         strcpy(string->string,stringToCreate);
     }

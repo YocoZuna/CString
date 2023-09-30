@@ -3,8 +3,9 @@
 #include "unity_fixture.h"
 
 #define STRING "Ala ma kota"
-
+#define STRING2 "i psa"
 CString* tekst = NULL;
+
 size_t stringLenght = 0;
 TEST_GROUP(CStringTestGroup);
 
@@ -16,6 +17,7 @@ TEST_SETUP(CStringTestGroup)
 TEST_TEAR_DOWN(CStringTestGroup)
 {
  tekst = NULL;
+
 }
 
 TEST(CStringTestGroup,CreateString)
@@ -23,13 +25,13 @@ TEST(CStringTestGroup,CreateString)
     
     tekst = CString_CreateString(STRING);
     
-    TEST_ASSERT_EQUAL_STRING("Ala ma kota",STRING);
+    TEST_ASSERT_EQUAL_STRING("Ala ma kota",tekst->string);
 }
 TEST(CStringTestGroup,DestroyString)
 {
     tekst = CString_CreateString(STRING);
     CString_DestroyString(&tekst);
-    TEST_ASSERT_EQUAL(NULL,tekst);
+    TEST_ASSERT_EQUAL_STRING(NULL,tekst);
 }
 TEST(CStringTestGroup,ReturnLength)
 {   
@@ -41,10 +43,18 @@ TEST(CStringTestGroup,ReturnLength)
 TEST(CStringTestGroup,ReplaceValString)
 {
     tekst = CString_CreateString(STRING);
-    CString_ReplaceString(tekst,"Ale nie ma kota");
-    TEST_ASSERT_EQUAL("Ala nie ma kota","Ala nie ma kota");
+    CString_ReplaceString(tekst,"Ala nie ma kota");
+    printf("%s",tekst->string);
+    TEST_ASSERT_EQUAL_STRING("Ala nie ma kota",tekst->string);
 }
 
+TEST(CStringTestGroup,ConcatStrings)
+{
+    // tekst = CString_CreateString(STRING);
+    // CString_ConcatString(STRING,STRING2);
+
+    // TEST_ASSERT_EQUAL("Ala ma kota i psa",tekst->string); 
+}
 
 TEST_GROUP_RUNNER(CStringTestGroup)
 {
