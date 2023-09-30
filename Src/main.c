@@ -51,7 +51,7 @@ TEST(CStringTestGroup,ReplaceValString)
 TEST(CStringTestGroup,ConcatStrings)
 {
     // tekst = CString_CreateString(STRING);
-    // CString_ConcatString(STRING,STRING2);
+    // CString_ConcatString(tekst,STRING,STRING2);
 
     // TEST_ASSERT_EQUAL("Ala ma kota i psa",tekst->string); 
 }
