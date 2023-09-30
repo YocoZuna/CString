@@ -27,7 +27,8 @@ Includs/CMakeFiles/Includs.dir/Src/CString.c.obj: C:/Users/dawid/Desktop/Json_Py
   D:/mysys2/mingw64/include/corecrt_stdio_config.h \
   D:/mysys2/mingw64/include/_mingw_off_t.h \
   D:/mysys2/mingw64/include/swprintf.inl \
-  D:/mysys2/mingw64/include/sec_api/stdio_s.h
+  D:/mysys2/mingw64/include/sec_api/stdio_s.h \
+  D:/mysys2/mingw64/include/assert.h
 
 
 D:/mysys2/mingw64/include/crtdefs.h:
@@ -83,3 +84,5 @@ D:/mysys2/mingw64/include/corecrt_stdio_config.h:
 D:/mysys2/mingw64/include/swprintf.inl:
 
 D:/mysys2/mingw64/include/sec_api/stdio_s.h:
+
+D:/mysys2/mingw64/include/assert.h:

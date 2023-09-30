@@ -38,12 +38,20 @@ TEST(CStringTestGroup,ReturnLength)
     TEST_ASSERT_EQUAL(stringLenght,len);
 }
 
+TEST(CStringTestGroup,ReplaceValString)
+{
+    tekst = CString_CreateString(STRING);
+    CString_ReplaceString(tekst,"Ale nie ma kota");
+    TEST_ASSERT_EQUAL("Ala nie ma kota","Ala nie ma kota");
+}
+
 
 TEST_GROUP_RUNNER(CStringTestGroup)
 {
     RUN_TEST_CASE(CStringTestGroup,CreateString);
     RUN_TEST_CASE(CStringTestGroup,ReturnLength);
     RUN_TEST_CASE(CStringTestGroup,DestroyString);
+    RUN_TEST_CASE(CStringTestGroup,ReplaceValString);
     
 }
 int main(int argc , char** argv ){

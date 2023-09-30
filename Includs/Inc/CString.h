@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
+#include <assert.h>
 typedef struct 
 {
     uint32_t lenght;
@@ -15,3 +16,4 @@ void CString_DestroyString(CString** stringToDestroy);
 CString* CString_CreateString(char stringToCreate[]);
 
 size_t CString_ReturnStringLength(CString* string);
+void CString_ReplaceString(CString* string,char stringToCreate[]);

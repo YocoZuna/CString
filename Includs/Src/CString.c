@@ -3,7 +3,9 @@
 
 
 CString* CreateString(char stringToCreate[]);
-
+void CString_DestroyString(CString** stringToDestroy);
+size_t CString_ReturnStringLength(CString* string);
+void CString_ReplaceString(CString* string,char stringToCreate[]);
 
 CString* CString_CreateString(char stringToCreate[])
 {
@@ -22,4 +24,16 @@ void CString_DestroyString(CString** stringToDestroy)
 size_t CString_ReturnStringLength(CString* string)
 {
     return string->lenght;
+}
+
+void CString_ReplaceString(CString* string, char stringToCreate[])
+{
+    size_t lenOld  = string->lenght;
+    size_t lenNew  = sizeof(stringToCreate);
+    if (lenOld==lenNew)
+    {
+        strcpy(string->string,stringToCreate);
+    }
+    
+
 }
