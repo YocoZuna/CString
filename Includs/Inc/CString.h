@@ -13,7 +13,7 @@ typedef struct
 }CString;
 
 void CString_DestroyString(CString** stringToDestroy);
-CString* CString_CreateString(char stringToCreate[]);
+CString* CString_CreateString(const  char stringToCreate[]);
 
 size_t CString_ReturnStringLength(CString* string);
-void CString_ReplaceString(CString* string,char stringToCreate[]);
+void CString_ReplaceString(CString* string,const char stringToCreate[]);

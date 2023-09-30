@@ -2,12 +2,12 @@
 
 
 
-CString* CreateString(char stringToCreate[]);
+CString* CreateString(const char stringToCreate[]);
 void CString_DestroyString(CString** stringToDestroy);
 size_t CString_ReturnStringLength(CString* string);
-void CString_ReplaceString(CString* string,char stringToCreate[]);
+void CString_ReplaceString(CString* string, const char stringToCreate[]);
 
-CString* CString_CreateString(char stringToCreate[])
+CString* CString_CreateString(const  char stringToCreate[])
 {
     uint32_t len = strlen(stringToCreate);
     CString* temp  = malloc(sizeof(CString*)+len*sizeof(char));
@@ -26,7 +26,7 @@ size_t CString_ReturnStringLength(CString* string)
     return string->lenght;
 }
 
-void CString_ReplaceString(CString* string, char stringToCreate[])
+void CString_ReplaceString(CString* string,const  char stringToCreate[])
 {
     size_t lenOld  = string->lenght;
     size_t lenNew  = sizeof(stringToCreate);
