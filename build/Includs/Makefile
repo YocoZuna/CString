@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\CMake\bin\cmake.exe"
+CMAKE_COMMAND = D:\CMake\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
+RM = D:\CMake\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Dawid Zadlo\Desktop\CString"
+CMAKE_SOURCE_DIR = C:\Users\dawid\Desktop\Json_Pyton\CString
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Dawid Zadlo\Desktop\CString\build"
+CMAKE_BINARY_DIR = C:\Users\dawid\Desktop\Json_Pyton\CString\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = "C:\Users\Dawid Zadlo\Desktop\CString\build"
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && D:\CMake\bin\cpack.exe --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -77,7 +77,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake "C:/Users/Dawid Zadlo/Desktop/CString/build/CPackSourceConfig.cmake"
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && D:\CMake\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Users/dawid/Desktop/Json_Pyton/CString/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -87,7 +87,7 @@ package_source/fast: package_source
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	"C:\Program Files\CMake\bin\ctest.exe" --force-new-ctest-process $(ARGS)
+	D:\CMake\bin\ctest.exe --force-new-ctest-process $(ARGS)
 .PHONY : test
 
 # Special rule for the target test
@@ -97,7 +97,7 @@ test/fast: test
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	"C:\Program Files\CMake\bin\cmake-gui.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	D:\CMake\bin\cmake-gui.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -107,7 +107,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	D:\CMake\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -116,14 +116,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Dawid Zadlo\Desktop\CString\build\CMakeFiles" "C:\Users\Dawid Zadlo\Desktop\CString\build\Includs\\CMakeFiles\progress.marks"
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Includs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Dawid Zadlo\Desktop\CString\build\CMakeFiles" 0
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dawid\Desktop\Json_Pyton\CString\build\CMakeFiles C:\Users\dawid\Desktop\Json_Pyton\CString\build\Includs\\CMakeFiles\progress.marks
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Includs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dawid\Desktop\Json_Pyton\CString\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Includs/clean
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Includs/clean
 .PHONY : clean
 
 # The main clean target
@@ -132,22 +132,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Includs/preinstall
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Includs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Includs/preinstall
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Includs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Includs/CMakeFiles/Includs.dir/rule:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Includs/CMakeFiles/Includs.dir/rule
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Includs/CMakeFiles/Includs.dir/rule
 .PHONY : Includs/CMakeFiles/Includs.dir/rule
 
 # Convenience name for target.
@@ -156,7 +156,7 @@ Includs: Includs/CMakeFiles/Includs.dir/rule
 
 # fast build rule for target.
 Includs/fast:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f Includs\CMakeFiles\Includs.dir\build.make Includs/CMakeFiles/Includs.dir/build
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f Includs\CMakeFiles\Includs.dir\build.make Includs/CMakeFiles/Includs.dir/build
 .PHONY : Includs/fast
 
 Src/CString.obj: Src/CString.c.obj
@@ -164,7 +164,7 @@ Src/CString.obj: Src/CString.c.obj
 
 # target to build an object file
 Src/CString.c.obj:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f Includs\CMakeFiles\Includs.dir\build.make Includs/CMakeFiles/Includs.dir/Src/CString.c.obj
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f Includs\CMakeFiles\Includs.dir\build.make Includs/CMakeFiles/Includs.dir/Src/CString.c.obj
 .PHONY : Src/CString.c.obj
 
 Src/CString.i: Src/CString.c.i
@@ -172,7 +172,7 @@ Src/CString.i: Src/CString.c.i
 
 # target to preprocess a source file
 Src/CString.c.i:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f Includs\CMakeFiles\Includs.dir\build.make Includs/CMakeFiles/Includs.dir/Src/CString.c.i
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f Includs\CMakeFiles\Includs.dir\build.make Includs/CMakeFiles/Includs.dir/Src/CString.c.i
 .PHONY : Src/CString.c.i
 
 Src/CString.s: Src/CString.c.s
@@ -180,7 +180,7 @@ Src/CString.s: Src/CString.c.s
 
 # target to generate assembly for a file
 Src/CString.c.s:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f Includs\CMakeFiles\Includs.dir\build.make Includs/CMakeFiles/Includs.dir/Src/CString.c.s
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f Includs\CMakeFiles\Includs.dir\build.make Includs/CMakeFiles/Includs.dir/Src/CString.c.s
 .PHONY : Src/CString.c.s
 
 # Help Target
@@ -209,6 +209,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

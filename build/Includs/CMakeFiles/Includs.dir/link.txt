@@ -1,2 +1,2 @@
-C:\msys64\mingw64\bin\ar.exe qc libIncluds.a CMakeFiles/Includs.dir/Src/CString.c.obj
-C:\msys64\mingw64\bin\ranlib.exe libIncluds.a
+D:\mysys2\mingw64\bin\ar.exe qc libIncluds.a CMakeFiles/Includs.dir/Src/CString.c.obj
+D:\mysys2\mingw64\bin\ranlib.exe libIncluds.a

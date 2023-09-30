@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\CMake\bin\cmake.exe"
+CMAKE_COMMAND = D:\CMake\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
+RM = D:\CMake\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Dawid Zadlo\Desktop\CString"
+CMAKE_SOURCE_DIR = C:\Users\dawid\Desktop\Json_Pyton\CString
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Dawid Zadlo\Desktop\CString\build"
+CMAKE_BINARY_DIR = C:\Users\dawid\Desktop\Json_Pyton\CString\build
 
 # Utility rule file for ExperimentalUpdate.
 
@@ -66,7 +66,7 @@ include CMakeFiles/ExperimentalUpdate.dir/compiler_depend.make
 include CMakeFiles/ExperimentalUpdate.dir/progress.make
 
 CMakeFiles/ExperimentalUpdate:
-	"C:\Program Files\CMake\bin\ctest.exe" -D ExperimentalUpdate
+	D:\CMake\bin\ctest.exe -D ExperimentalUpdate
 
 ExperimentalUpdate: CMakeFiles/ExperimentalUpdate
 ExperimentalUpdate: CMakeFiles/ExperimentalUpdate.dir/build.make
@@ -81,6 +81,6 @@ CMakeFiles/ExperimentalUpdate.dir/clean:
 .PHONY : CMakeFiles/ExperimentalUpdate.dir/clean
 
 CMakeFiles/ExperimentalUpdate.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Dawid Zadlo\Desktop\CString" "C:\Users\Dawid Zadlo\Desktop\CString" "C:\Users\Dawid Zadlo\Desktop\CString\build" "C:\Users\Dawid Zadlo\Desktop\CString\build" "C:\Users\Dawid Zadlo\Desktop\CString\build\CMakeFiles\ExperimentalUpdate.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\dawid\Desktop\Json_Pyton\CString C:\Users\dawid\Desktop\Json_Pyton\CString C:\Users\dawid\Desktop\Json_Pyton\CString\build C:\Users\dawid\Desktop\Json_Pyton\CString\build C:\Users\dawid\Desktop\Json_Pyton\CString\build\CMakeFiles\ExperimentalUpdate.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ExperimentalUpdate.dir/depend
 

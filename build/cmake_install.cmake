@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Dawid Zadlo/Desktop/CString
+# Install script for directory: C:/Users/dawid/Desktop/Json_Pyton/CString
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,14 +34,14 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/msys64/mingw64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/mysys2/mingw64/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Dawid Zadlo/Desktop/CString/build/UnityFrameWork/cmake_install.cmake")
-  include("C:/Users/Dawid Zadlo/Desktop/CString/build/Src/cmake_install.cmake")
-  include("C:/Users/Dawid Zadlo/Desktop/CString/build/Includs/cmake_install.cmake")
+  include("C:/Users/dawid/Desktop/Json_Pyton/CString/build/UnityFrameWork/cmake_install.cmake")
+  include("C:/Users/dawid/Desktop/Json_Pyton/CString/build/Src/cmake_install.cmake")
+  include("C:/Users/dawid/Desktop/Json_Pyton/CString/build/Includs/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Dawid Zadlo/Desktop/CString/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/dawid/Desktop/Json_Pyton/CString/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

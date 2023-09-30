@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\CMake\bin\cmake.exe"
+CMAKE_COMMAND = D:\CMake\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
+RM = D:\CMake\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Dawid Zadlo\Desktop\CString"
+CMAKE_SOURCE_DIR = C:\Users\dawid\Desktop\Json_Pyton\CString
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Dawid Zadlo\Desktop\CString\build"
+CMAKE_BINARY_DIR = C:\Users\dawid\Desktop\Json_Pyton\CString\build
 
 # Include any dependencies generated for this target.
 include Includs/CMakeFiles/Includs.dir/depend.make
@@ -70,18 +70,18 @@ include Includs/CMakeFiles/Includs.dir/flags.make
 
 Includs/CMakeFiles/Includs.dir/Src/CString.c.obj: Includs/CMakeFiles/Includs.dir/flags.make
 Includs/CMakeFiles/Includs.dir/Src/CString.c.obj: Includs/CMakeFiles/Includs.dir/includes_C.rsp
-Includs/CMakeFiles/Includs.dir/Src/CString.c.obj: C:/Users/Dawid\ Zadlo/Desktop/CString/Includs/Src/CString.c
+Includs/CMakeFiles/Includs.dir/Src/CString.c.obj: C:/Users/dawid/Desktop/Json_Pyton/CString/Includs/Src/CString.c
 Includs/CMakeFiles/Includs.dir/Src/CString.c.obj: Includs/CMakeFiles/Includs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Dawid Zadlo\Desktop\CString\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object Includs/CMakeFiles/Includs.dir/Src/CString.c.obj"
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build\Includs && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Includs/CMakeFiles/Includs.dir/Src/CString.c.obj -MF CMakeFiles\Includs.dir\Src\CString.c.obj.d -o CMakeFiles\Includs.dir\Src\CString.c.obj -c "C:\Users\Dawid Zadlo\Desktop\CString\Includs\Src\CString.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dawid\Desktop\Json_Pyton\CString\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Includs/CMakeFiles/Includs.dir/Src/CString.c.obj"
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build\Includs && D:\mysys2\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Includs/CMakeFiles/Includs.dir/Src/CString.c.obj -MF CMakeFiles\Includs.dir\Src\CString.c.obj.d -o CMakeFiles\Includs.dir\Src\CString.c.obj -c C:\Users\dawid\Desktop\Json_Pyton\CString\Includs\Src\CString.c
 
 Includs/CMakeFiles/Includs.dir/Src/CString.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Includs.dir/Src/CString.c.i"
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build\Includs && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Dawid Zadlo\Desktop\CString\Includs\Src\CString.c" > CMakeFiles\Includs.dir\Src\CString.c.i
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build\Includs && D:\mysys2\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dawid\Desktop\Json_Pyton\CString\Includs\Src\CString.c > CMakeFiles\Includs.dir\Src\CString.c.i
 
 Includs/CMakeFiles/Includs.dir/Src/CString.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Includs.dir/Src/CString.c.s"
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build\Includs && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Dawid Zadlo\Desktop\CString\Includs\Src\CString.c" -o CMakeFiles\Includs.dir\Src\CString.c.s
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build\Includs && D:\mysys2\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dawid\Desktop\Json_Pyton\CString\Includs\Src\CString.c -o CMakeFiles\Includs.dir\Src\CString.c.s
 
 # Object files for target Includs
 Includs_OBJECTS = \
@@ -93,19 +93,19 @@ Includs_EXTERNAL_OBJECTS =
 Includs/libIncluds.a: Includs/CMakeFiles/Includs.dir/Src/CString.c.obj
 Includs/libIncluds.a: Includs/CMakeFiles/Includs.dir/build.make
 Includs/libIncluds.a: Includs/CMakeFiles/Includs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Dawid Zadlo\Desktop\CString\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libIncluds.a"
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build\Includs && $(CMAKE_COMMAND) -P CMakeFiles\Includs.dir\cmake_clean_target.cmake
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build\Includs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Includs.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\dawid\Desktop\Json_Pyton\CString\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libIncluds.a"
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build\Includs && $(CMAKE_COMMAND) -P CMakeFiles\Includs.dir\cmake_clean_target.cmake
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build\Includs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Includs.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Includs/CMakeFiles/Includs.dir/build: Includs/libIncluds.a
 .PHONY : Includs/CMakeFiles/Includs.dir/build
 
 Includs/CMakeFiles/Includs.dir/clean:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build\Includs && $(CMAKE_COMMAND) -P CMakeFiles\Includs.dir\cmake_clean.cmake
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build\Includs && $(CMAKE_COMMAND) -P CMakeFiles\Includs.dir\cmake_clean.cmake
 .PHONY : Includs/CMakeFiles/Includs.dir/clean
 
 Includs/CMakeFiles/Includs.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Dawid Zadlo\Desktop\CString" "C:\Users\Dawid Zadlo\Desktop\CString\Includs" "C:\Users\Dawid Zadlo\Desktop\CString\build" "C:\Users\Dawid Zadlo\Desktop\CString\build\Includs" "C:\Users\Dawid Zadlo\Desktop\CString\build\Includs\CMakeFiles\Includs.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\dawid\Desktop\Json_Pyton\CString C:\Users\dawid\Desktop\Json_Pyton\CString\Includs C:\Users\dawid\Desktop\Json_Pyton\CString\build C:\Users\dawid\Desktop\Json_Pyton\CString\build\Includs C:\Users\dawid\Desktop\Json_Pyton\CString\build\Includs\CMakeFiles\Includs.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : Includs/CMakeFiles/Includs.dir/depend
 

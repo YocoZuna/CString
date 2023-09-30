@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Dawid Zadlo/Desktop/CString/UnityFrameWork/unity.c" "UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity.c.obj" "gcc" "UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity.c.obj.d"
-  "C:/Users/Dawid Zadlo/Desktop/CString/UnityFrameWork/unity_fixture.c" "UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_fixture.c.obj" "gcc" "UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_fixture.c.obj.d"
-  "C:/Users/Dawid Zadlo/Desktop/CString/UnityFrameWork/unity_memory.c" "UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.obj" "gcc" "UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.obj.d"
+  "C:/Users/dawid/Desktop/Json_Pyton/CString/UnityFrameWork/unity.c" "UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity.c.obj" "gcc" "UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity.c.obj.d"
+  "C:/Users/dawid/Desktop/Json_Pyton/CString/UnityFrameWork/unity_fixture.c" "UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_fixture.c.obj" "gcc" "UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_fixture.c.obj.d"
+  "C:/Users/dawid/Desktop/Json_Pyton/CString/UnityFrameWork/unity_memory.c" "UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.obj" "gcc" "UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.obj.d"
   )
 
 # Targets to which this target links.

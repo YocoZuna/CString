@@ -1,27 +1,27 @@
 [
 {
-  "directory": "C:/Users/Dawid Zadlo/Desktop/CString/build/UnityFrameWork",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/UnityFrameWork.dir/includes_C.rsp -g -o CMakeFiles\\UnityFrameWork.dir\\unity.c.obj -c \"C:\\Users\\Dawid Zadlo\\Desktop\\CString\\UnityFrameWork\\unity.c\"",
-  "file": "C:/Users/Dawid Zadlo/Desktop/CString/UnityFrameWork/unity.c"
+  "directory": "C:/Users/dawid/Desktop/Json_Pyton/CString/build/UnityFrameWork",
+  "command": "D:\\mysys2\\mingw64\\bin\\gcc.exe  @CMakeFiles/UnityFrameWork.dir/includes_C.rsp -g -o CMakeFiles\\UnityFrameWork.dir\\unity.c.obj -c C:\\Users\\dawid\\Desktop\\Json_Pyton\\CString\\UnityFrameWork\\unity.c",
+  "file": "C:/Users/dawid/Desktop/Json_Pyton/CString/UnityFrameWork/unity.c"
 },
 {
-  "directory": "C:/Users/Dawid Zadlo/Desktop/CString/build/UnityFrameWork",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/UnityFrameWork.dir/includes_C.rsp -g -o CMakeFiles\\UnityFrameWork.dir\\unity_fixture.c.obj -c \"C:\\Users\\Dawid Zadlo\\Desktop\\CString\\UnityFrameWork\\unity_fixture.c\"",
-  "file": "C:/Users/Dawid Zadlo/Desktop/CString/UnityFrameWork/unity_fixture.c"
+  "directory": "C:/Users/dawid/Desktop/Json_Pyton/CString/build/UnityFrameWork",
+  "command": "D:\\mysys2\\mingw64\\bin\\gcc.exe  @CMakeFiles/UnityFrameWork.dir/includes_C.rsp -g -o CMakeFiles\\UnityFrameWork.dir\\unity_fixture.c.obj -c C:\\Users\\dawid\\Desktop\\Json_Pyton\\CString\\UnityFrameWork\\unity_fixture.c",
+  "file": "C:/Users/dawid/Desktop/Json_Pyton/CString/UnityFrameWork/unity_fixture.c"
 },
 {
-  "directory": "C:/Users/Dawid Zadlo/Desktop/CString/build/UnityFrameWork",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/UnityFrameWork.dir/includes_C.rsp -g -o CMakeFiles\\UnityFrameWork.dir\\unity_memory.c.obj -c \"C:\\Users\\Dawid Zadlo\\Desktop\\CString\\UnityFrameWork\\unity_memory.c\"",
-  "file": "C:/Users/Dawid Zadlo/Desktop/CString/UnityFrameWork/unity_memory.c"
+  "directory": "C:/Users/dawid/Desktop/Json_Pyton/CString/build/UnityFrameWork",
+  "command": "D:\\mysys2\\mingw64\\bin\\gcc.exe  @CMakeFiles/UnityFrameWork.dir/includes_C.rsp -g -o CMakeFiles\\UnityFrameWork.dir\\unity_memory.c.obj -c C:\\Users\\dawid\\Desktop\\Json_Pyton\\CString\\UnityFrameWork\\unity_memory.c",
+  "file": "C:/Users/dawid/Desktop/Json_Pyton/CString/UnityFrameWork/unity_memory.c"
 },
 {
-  "directory": "C:/Users/Dawid Zadlo/Desktop/CString/build/Src",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/Src.dir/includes_C.rsp -g -o CMakeFiles\\Src.dir\\main.c.obj -c \"C:\\Users\\Dawid Zadlo\\Desktop\\CString\\Src\\main.c\"",
-  "file": "C:/Users/Dawid Zadlo/Desktop/CString/Src/main.c"
+  "directory": "C:/Users/dawid/Desktop/Json_Pyton/CString/build/Src",
+  "command": "D:\\mysys2\\mingw64\\bin\\gcc.exe  @CMakeFiles/Src.dir/includes_C.rsp -g -o CMakeFiles\\Src.dir\\main.c.obj -c C:\\Users\\dawid\\Desktop\\Json_Pyton\\CString\\Src\\main.c",
+  "file": "C:/Users/dawid/Desktop/Json_Pyton/CString/Src/main.c"
 },
 {
-  "directory": "C:/Users/Dawid Zadlo/Desktop/CString/build/Includs",
-  "command": "C:\\msys64\\mingw64\\bin\\gcc.exe  @CMakeFiles/Includs.dir/includes_C.rsp -g -o CMakeFiles\\Includs.dir\\Src\\CString.c.obj -c \"C:\\Users\\Dawid Zadlo\\Desktop\\CString\\Includs\\Src\\CString.c\"",
-  "file": "C:/Users/Dawid Zadlo/Desktop/CString/Includs/Src/CString.c"
+  "directory": "C:/Users/dawid/Desktop/Json_Pyton/CString/build/Includs",
+  "command": "D:\\mysys2\\mingw64\\bin\\gcc.exe  @CMakeFiles/Includs.dir/includes_C.rsp -g -o CMakeFiles\\Includs.dir\\Src\\CString.c.obj -c C:\\Users\\dawid\\Desktop\\Json_Pyton\\CString\\Includs\\Src\\CString.c",
+  "file": "C:/Users/dawid/Desktop/Json_Pyton/CString/Includs/Src/CString.c"
 }
 ]

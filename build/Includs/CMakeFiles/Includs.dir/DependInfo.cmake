@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Dawid Zadlo/Desktop/CString/Includs/Src/CString.c" "Includs/CMakeFiles/Includs.dir/Src/CString.c.obj" "gcc" "Includs/CMakeFiles/Includs.dir/Src/CString.c.obj.d"
+  "C:/Users/dawid/Desktop/Json_Pyton/CString/Includs/Src/CString.c" "Includs/CMakeFiles/Includs.dir/Src/CString.c.obj" "gcc" "Includs/CMakeFiles/Includs.dir/Src/CString.c.obj.d"
   )
 
 # Targets to which this target links.

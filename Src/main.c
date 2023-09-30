@@ -2,6 +2,7 @@
 #include "unity.h"
 #include "unity_fixture.h"
 
+#define STRING "Ala ma kota"
 
 CString* tekst = NULL;
 size_t stringLenght = 0;
@@ -9,29 +10,30 @@ TEST_GROUP(CStringTestGroup);
 
 TEST_SETUP(CStringTestGroup)
 {
-
+  stringLenght = strlen(STRING);
 }
 
 TEST_TEAR_DOWN(CStringTestGroup)
 {
-
+ tekst = NULL;
 }
 
 TEST(CStringTestGroup,CreateString)
 {
     
-    tekst = CString_CreateString("Ala ma kota");
-    stringLenght = strlen("Ala ma kota");
-    TEST_ASSERT_EQUAL_STRING("Ala ma kota","Ala ma kota");
+    tekst = CString_CreateString(STRING);
+    
+    TEST_ASSERT_EQUAL_STRING("Ala ma kota",STRING);
 }
 TEST(CStringTestGroup,DestroyString)
 {
-    
+    tekst = CString_CreateString(STRING);
     CString_DestroyString(&tekst);
     TEST_ASSERT_EQUAL(NULL,tekst);
 }
 TEST(CStringTestGroup,ReturnLength)
-{
+{   
+    tekst = CString_CreateString(STRING);
     size_t len = CString_ReturnStringLength(tekst);
     TEST_ASSERT_EQUAL(stringLenght,len);
 }

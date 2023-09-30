@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Dawid Zadlo/Desktop/CString/UnityFrameWork
+# Install script for directory: C:/Users/dawid/Desktop/Json_Pyton/CString/UnityFrameWork
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/msys64/mingw64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/mysys2/mingw64/bin/objdump.exe")
 endif()
 

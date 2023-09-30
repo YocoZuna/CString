@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\CMake\bin\cmake.exe"
+CMAKE_COMMAND = D:\CMake\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
+RM = D:\CMake\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Dawid Zadlo\Desktop\CString"
+CMAKE_SOURCE_DIR = C:\Users\dawid\Desktop\Json_Pyton\CString
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Dawid Zadlo\Desktop\CString\build"
+CMAKE_BINARY_DIR = C:\Users\dawid\Desktop\Json_Pyton\CString\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = "C:\Users\Dawid Zadlo\Desktop\CString\build"
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && D:\CMake\bin\cpack.exe --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -77,7 +77,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake "C:/Users/Dawid Zadlo/Desktop/CString/build/CPackSourceConfig.cmake"
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && D:\CMake\bin\cpack.exe --config ./CPackSourceConfig.cmake C:/Users/dawid/Desktop/Json_Pyton/CString/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -87,7 +87,7 @@ package_source/fast: package_source
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	"C:\Program Files\CMake\bin\ctest.exe" --force-new-ctest-process $(ARGS)
+	D:\CMake\bin\ctest.exe --force-new-ctest-process $(ARGS)
 .PHONY : test
 
 # Special rule for the target test
@@ -97,7 +97,7 @@ test/fast: test
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	"C:\Program Files\CMake\bin\cmake-gui.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	D:\CMake\bin\cmake-gui.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -107,7 +107,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	D:\CMake\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -116,14 +116,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Dawid Zadlo\Desktop\CString\build\CMakeFiles" "C:\Users\Dawid Zadlo\Desktop\CString\build\UnityFrameWork\\CMakeFiles\progress.marks"
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 UnityFrameWork/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Dawid Zadlo\Desktop\CString\build\CMakeFiles" 0
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dawid\Desktop\Json_Pyton\CString\build\CMakeFiles C:\Users\dawid\Desktop\Json_Pyton\CString\build\UnityFrameWork\\CMakeFiles\progress.marks
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 UnityFrameWork/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\dawid\Desktop\Json_Pyton\CString\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 UnityFrameWork/clean
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 UnityFrameWork/clean
 .PHONY : clean
 
 # The main clean target
@@ -132,22 +132,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 UnityFrameWork/preinstall
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 UnityFrameWork/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 UnityFrameWork/preinstall
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 UnityFrameWork/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/rule:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/rule
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/rule
 .PHONY : UnityFrameWork/CMakeFiles/UnityFrameWork.dir/rule
 
 # Convenience name for target.
@@ -156,7 +156,7 @@ UnityFrameWork: UnityFrameWork/CMakeFiles/UnityFrameWork.dir/rule
 
 # fast build rule for target.
 UnityFrameWork/fast:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f UnityFrameWork\CMakeFiles\UnityFrameWork.dir\build.make UnityFrameWork/CMakeFiles/UnityFrameWork.dir/build
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f UnityFrameWork\CMakeFiles\UnityFrameWork.dir\build.make UnityFrameWork/CMakeFiles/UnityFrameWork.dir/build
 .PHONY : UnityFrameWork/fast
 
 unity.obj: unity.c.obj
@@ -164,7 +164,7 @@ unity.obj: unity.c.obj
 
 # target to build an object file
 unity.c.obj:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f UnityFrameWork\CMakeFiles\UnityFrameWork.dir\build.make UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity.c.obj
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f UnityFrameWork\CMakeFiles\UnityFrameWork.dir\build.make UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity.c.obj
 .PHONY : unity.c.obj
 
 unity.i: unity.c.i
@@ -172,7 +172,7 @@ unity.i: unity.c.i
 
 # target to preprocess a source file
 unity.c.i:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f UnityFrameWork\CMakeFiles\UnityFrameWork.dir\build.make UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity.c.i
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f UnityFrameWork\CMakeFiles\UnityFrameWork.dir\build.make UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity.c.i
 .PHONY : unity.c.i
 
 unity.s: unity.c.s
@@ -180,7 +180,7 @@ unity.s: unity.c.s
 
 # target to generate assembly for a file
 unity.c.s:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f UnityFrameWork\CMakeFiles\UnityFrameWork.dir\build.make UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity.c.s
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f UnityFrameWork\CMakeFiles\UnityFrameWork.dir\build.make UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity.c.s
 .PHONY : unity.c.s
 
 unity_fixture.obj: unity_fixture.c.obj
@@ -188,7 +188,7 @@ unity_fixture.obj: unity_fixture.c.obj
 
 # target to build an object file
 unity_fixture.c.obj:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f UnityFrameWork\CMakeFiles\UnityFrameWork.dir\build.make UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_fixture.c.obj
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f UnityFrameWork\CMakeFiles\UnityFrameWork.dir\build.make UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_fixture.c.obj
 .PHONY : unity_fixture.c.obj
 
 unity_fixture.i: unity_fixture.c.i
@@ -196,7 +196,7 @@ unity_fixture.i: unity_fixture.c.i
 
 # target to preprocess a source file
 unity_fixture.c.i:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f UnityFrameWork\CMakeFiles\UnityFrameWork.dir\build.make UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_fixture.c.i
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f UnityFrameWork\CMakeFiles\UnityFrameWork.dir\build.make UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_fixture.c.i
 .PHONY : unity_fixture.c.i
 
 unity_fixture.s: unity_fixture.c.s
@@ -204,7 +204,7 @@ unity_fixture.s: unity_fixture.c.s
 
 # target to generate assembly for a file
 unity_fixture.c.s:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f UnityFrameWork\CMakeFiles\UnityFrameWork.dir\build.make UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_fixture.c.s
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f UnityFrameWork\CMakeFiles\UnityFrameWork.dir\build.make UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_fixture.c.s
 .PHONY : unity_fixture.c.s
 
 unity_memory.obj: unity_memory.c.obj
@@ -212,7 +212,7 @@ unity_memory.obj: unity_memory.c.obj
 
 # target to build an object file
 unity_memory.c.obj:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f UnityFrameWork\CMakeFiles\UnityFrameWork.dir\build.make UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.obj
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f UnityFrameWork\CMakeFiles\UnityFrameWork.dir\build.make UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.obj
 .PHONY : unity_memory.c.obj
 
 unity_memory.i: unity_memory.c.i
@@ -220,7 +220,7 @@ unity_memory.i: unity_memory.c.i
 
 # target to preprocess a source file
 unity_memory.c.i:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f UnityFrameWork\CMakeFiles\UnityFrameWork.dir\build.make UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.i
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f UnityFrameWork\CMakeFiles\UnityFrameWork.dir\build.make UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.i
 .PHONY : unity_memory.c.i
 
 unity_memory.s: unity_memory.c.s
@@ -228,7 +228,7 @@ unity_memory.s: unity_memory.c.s
 
 # target to generate assembly for a file
 unity_memory.c.s:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(MAKE) $(MAKESILENT) -f UnityFrameWork\CMakeFiles\UnityFrameWork.dir\build.make UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.s
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(MAKE) $(MAKESILENT) -f UnityFrameWork\CMakeFiles\UnityFrameWork.dir\build.make UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.s
 .PHONY : unity_memory.c.s
 
 # Help Target
@@ -263,6 +263,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

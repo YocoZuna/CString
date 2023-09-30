@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-mingw32-make"
+	BuildStamp="20230930-0803-Experimental"
+	Name="LAPTOP-HQ0GF5B3"
+	Generator="ctest-3.24.2"
+	CompilerName="D:/mysys2/mingw64/bin/g++.exe"
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="LAPTOP-HQ0GF5B3"
+	OSRelease=" Professional"
+	OSVersion=" (Build 19045)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="15"
+	ModelID="0"
+	ProcessorCacheSize="64"
+	NumberOfLogicalCPU="6"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="15221"
+	TotalPhysicalMemory="7541"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2370"
+	>
+	<Testing>
+		<StartDateTime>Sep 30 10:03 Central European Summer Time</StartDateTime>
+		<StartTestTime>1696061022</StartTestTime>
+		<TestList/>
+		<EndDateTime>Sep 30 10:03 Central European Summer Time</EndDateTime>
+		<EndTestTime>1696061022</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

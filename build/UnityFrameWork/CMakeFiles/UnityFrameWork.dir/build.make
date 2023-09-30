@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\CMake\bin\cmake.exe"
+CMAKE_COMMAND = D:\CMake\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
+RM = D:\CMake\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Dawid Zadlo\Desktop\CString"
+CMAKE_SOURCE_DIR = C:\Users\dawid\Desktop\Json_Pyton\CString
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Dawid Zadlo\Desktop\CString\build"
+CMAKE_BINARY_DIR = C:\Users\dawid\Desktop\Json_Pyton\CString\build
 
 # Include any dependencies generated for this target.
 include UnityFrameWork/CMakeFiles/UnityFrameWork.dir/depend.make
@@ -70,48 +70,48 @@ include UnityFrameWork/CMakeFiles/UnityFrameWork.dir/flags.make
 
 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity.c.obj: UnityFrameWork/CMakeFiles/UnityFrameWork.dir/flags.make
 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity.c.obj: UnityFrameWork/CMakeFiles/UnityFrameWork.dir/includes_C.rsp
-UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity.c.obj: C:/Users/Dawid\ Zadlo/Desktop/CString/UnityFrameWork/unity.c
+UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity.c.obj: C:/Users/dawid/Desktop/Json_Pyton/CString/UnityFrameWork/unity.c
 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity.c.obj: UnityFrameWork/CMakeFiles/UnityFrameWork.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Dawid Zadlo\Desktop\CString\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity.c.obj"
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build\UNITYF~1 && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity.c.obj -MF CMakeFiles\UnityFrameWork.dir\unity.c.obj.d -o CMakeFiles\UnityFrameWork.dir\unity.c.obj -c "C:\Users\Dawid Zadlo\Desktop\CString\UnityFrameWork\unity.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dawid\Desktop\Json_Pyton\CString\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity.c.obj"
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build\UnityFrameWork && D:\mysys2\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity.c.obj -MF CMakeFiles\UnityFrameWork.dir\unity.c.obj.d -o CMakeFiles\UnityFrameWork.dir\unity.c.obj -c C:\Users\dawid\Desktop\Json_Pyton\CString\UnityFrameWork\unity.c
 
 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UnityFrameWork.dir/unity.c.i"
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build\UNITYF~1 && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Dawid Zadlo\Desktop\CString\UnityFrameWork\unity.c" > CMakeFiles\UnityFrameWork.dir\unity.c.i
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build\UnityFrameWork && D:\mysys2\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dawid\Desktop\Json_Pyton\CString\UnityFrameWork\unity.c > CMakeFiles\UnityFrameWork.dir\unity.c.i
 
 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UnityFrameWork.dir/unity.c.s"
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build\UNITYF~1 && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Dawid Zadlo\Desktop\CString\UnityFrameWork\unity.c" -o CMakeFiles\UnityFrameWork.dir\unity.c.s
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build\UnityFrameWork && D:\mysys2\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dawid\Desktop\Json_Pyton\CString\UnityFrameWork\unity.c -o CMakeFiles\UnityFrameWork.dir\unity.c.s
 
 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_fixture.c.obj: UnityFrameWork/CMakeFiles/UnityFrameWork.dir/flags.make
 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_fixture.c.obj: UnityFrameWork/CMakeFiles/UnityFrameWork.dir/includes_C.rsp
-UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_fixture.c.obj: C:/Users/Dawid\ Zadlo/Desktop/CString/UnityFrameWork/unity_fixture.c
+UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_fixture.c.obj: C:/Users/dawid/Desktop/Json_Pyton/CString/UnityFrameWork/unity_fixture.c
 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_fixture.c.obj: UnityFrameWork/CMakeFiles/UnityFrameWork.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Dawid Zadlo\Desktop\CString\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_fixture.c.obj"
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build\UNITYF~1 && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_fixture.c.obj -MF CMakeFiles\UnityFrameWork.dir\unity_fixture.c.obj.d -o CMakeFiles\UnityFrameWork.dir\unity_fixture.c.obj -c "C:\Users\Dawid Zadlo\Desktop\CString\UnityFrameWork\unity_fixture.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dawid\Desktop\Json_Pyton\CString\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_fixture.c.obj"
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build\UnityFrameWork && D:\mysys2\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_fixture.c.obj -MF CMakeFiles\UnityFrameWork.dir\unity_fixture.c.obj.d -o CMakeFiles\UnityFrameWork.dir\unity_fixture.c.obj -c C:\Users\dawid\Desktop\Json_Pyton\CString\UnityFrameWork\unity_fixture.c
 
 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_fixture.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UnityFrameWork.dir/unity_fixture.c.i"
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build\UNITYF~1 && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Dawid Zadlo\Desktop\CString\UnityFrameWork\unity_fixture.c" > CMakeFiles\UnityFrameWork.dir\unity_fixture.c.i
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build\UnityFrameWork && D:\mysys2\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dawid\Desktop\Json_Pyton\CString\UnityFrameWork\unity_fixture.c > CMakeFiles\UnityFrameWork.dir\unity_fixture.c.i
 
 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_fixture.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UnityFrameWork.dir/unity_fixture.c.s"
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build\UNITYF~1 && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Dawid Zadlo\Desktop\CString\UnityFrameWork\unity_fixture.c" -o CMakeFiles\UnityFrameWork.dir\unity_fixture.c.s
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build\UnityFrameWork && D:\mysys2\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dawid\Desktop\Json_Pyton\CString\UnityFrameWork\unity_fixture.c -o CMakeFiles\UnityFrameWork.dir\unity_fixture.c.s
 
 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.obj: UnityFrameWork/CMakeFiles/UnityFrameWork.dir/flags.make
 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.obj: UnityFrameWork/CMakeFiles/UnityFrameWork.dir/includes_C.rsp
-UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.obj: C:/Users/Dawid\ Zadlo/Desktop/CString/UnityFrameWork/unity_memory.c
+UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.obj: C:/Users/dawid/Desktop/Json_Pyton/CString/UnityFrameWork/unity_memory.c
 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.obj: UnityFrameWork/CMakeFiles/UnityFrameWork.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Dawid Zadlo\Desktop\CString\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.obj"
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build\UNITYF~1 && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.obj -MF CMakeFiles\UnityFrameWork.dir\unity_memory.c.obj.d -o CMakeFiles\UnityFrameWork.dir\unity_memory.c.obj -c "C:\Users\Dawid Zadlo\Desktop\CString\UnityFrameWork\unity_memory.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dawid\Desktop\Json_Pyton\CString\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.obj"
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build\UnityFrameWork && D:\mysys2\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.obj -MF CMakeFiles\UnityFrameWork.dir\unity_memory.c.obj.d -o CMakeFiles\UnityFrameWork.dir\unity_memory.c.obj -c C:\Users\dawid\Desktop\Json_Pyton\CString\UnityFrameWork\unity_memory.c
 
 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/UnityFrameWork.dir/unity_memory.c.i"
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build\UNITYF~1 && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Dawid Zadlo\Desktop\CString\UnityFrameWork\unity_memory.c" > CMakeFiles\UnityFrameWork.dir\unity_memory.c.i
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build\UnityFrameWork && D:\mysys2\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dawid\Desktop\Json_Pyton\CString\UnityFrameWork\unity_memory.c > CMakeFiles\UnityFrameWork.dir\unity_memory.c.i
 
 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/UnityFrameWork.dir/unity_memory.c.s"
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build\UNITYF~1 && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Dawid Zadlo\Desktop\CString\UnityFrameWork\unity_memory.c" -o CMakeFiles\UnityFrameWork.dir\unity_memory.c.s
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build\UnityFrameWork && D:\mysys2\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dawid\Desktop\Json_Pyton\CString\UnityFrameWork\unity_memory.c -o CMakeFiles\UnityFrameWork.dir\unity_memory.c.s
 
 # Object files for target UnityFrameWork
 UnityFrameWork_OBJECTS = \
@@ -127,19 +127,19 @@ UnityFrameWork/libUnityFrameWork.a: UnityFrameWork/CMakeFiles/UnityFrameWork.dir
 UnityFrameWork/libUnityFrameWork.a: UnityFrameWork/CMakeFiles/UnityFrameWork.dir/unity_memory.c.obj
 UnityFrameWork/libUnityFrameWork.a: UnityFrameWork/CMakeFiles/UnityFrameWork.dir/build.make
 UnityFrameWork/libUnityFrameWork.a: UnityFrameWork/CMakeFiles/UnityFrameWork.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Dawid Zadlo\Desktop\CString\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libUnityFrameWork.a"
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build\UNITYF~1 && $(CMAKE_COMMAND) -P CMakeFiles\UnityFrameWork.dir\cmake_clean_target.cmake
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build\UNITYF~1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\UnityFrameWork.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\dawid\Desktop\Json_Pyton\CString\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libUnityFrameWork.a"
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build\UnityFrameWork && $(CMAKE_COMMAND) -P CMakeFiles\UnityFrameWork.dir\cmake_clean_target.cmake
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build\UnityFrameWork && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\UnityFrameWork.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/build: UnityFrameWork/libUnityFrameWork.a
 .PHONY : UnityFrameWork/CMakeFiles/UnityFrameWork.dir/build
 
 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/clean:
-	cd /d C:\Users\DAWIDZ~1\Desktop\CString\build\UNITYF~1 && $(CMAKE_COMMAND) -P CMakeFiles\UnityFrameWork.dir\cmake_clean.cmake
+	cd /d C:\Users\dawid\Desktop\Json_Pyton\CString\build\UnityFrameWork && $(CMAKE_COMMAND) -P CMakeFiles\UnityFrameWork.dir\cmake_clean.cmake
 .PHONY : UnityFrameWork/CMakeFiles/UnityFrameWork.dir/clean
 
 UnityFrameWork/CMakeFiles/UnityFrameWork.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Dawid Zadlo\Desktop\CString" "C:\Users\Dawid Zadlo\Desktop\CString\UnityFrameWork" "C:\Users\Dawid Zadlo\Desktop\CString\build" "C:\Users\Dawid Zadlo\Desktop\CString\build\UnityFrameWork" "C:\Users\Dawid Zadlo\Desktop\CString\build\UnityFrameWork\CMakeFiles\UnityFrameWork.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\dawid\Desktop\Json_Pyton\CString C:\Users\dawid\Desktop\Json_Pyton\CString\UnityFrameWork C:\Users\dawid\Desktop\Json_Pyton\CString\build C:\Users\dawid\Desktop\Json_Pyton\CString\build\UnityFrameWork C:\Users\dawid\Desktop\Json_Pyton\CString\build\UnityFrameWork\CMakeFiles\UnityFrameWork.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : UnityFrameWork/CMakeFiles/UnityFrameWork.dir/depend
 

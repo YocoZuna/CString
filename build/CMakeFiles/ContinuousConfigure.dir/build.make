@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\CMake\bin\cmake.exe"
+CMAKE_COMMAND = D:\CMake\bin\cmake.exe
 
 # The command to remove a file.
-RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
+RM = D:\CMake\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Dawid Zadlo\Desktop\CString"
+CMAKE_SOURCE_DIR = C:\Users\dawid\Desktop\Json_Pyton\CString
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Dawid Zadlo\Desktop\CString\build"
+CMAKE_BINARY_DIR = C:\Users\dawid\Desktop\Json_Pyton\CString\build
 
 # Utility rule file for ContinuousConfigure.
 
@@ -66,7 +66,7 @@ include CMakeFiles/ContinuousConfigure.dir/compiler_depend.make
 include CMakeFiles/ContinuousConfigure.dir/progress.make
 
 CMakeFiles/ContinuousConfigure:
-	"C:\Program Files\CMake\bin\ctest.exe" -D ContinuousConfigure
+	D:\CMake\bin\ctest.exe -D ContinuousConfigure
 
 ContinuousConfigure: CMakeFiles/ContinuousConfigure
 ContinuousConfigure: CMakeFiles/ContinuousConfigure.dir/build.make
@@ -81,6 +81,6 @@ CMakeFiles/ContinuousConfigure.dir/clean:
 .PHONY : CMakeFiles/ContinuousConfigure.dir/clean
 
 CMakeFiles/ContinuousConfigure.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Dawid Zadlo\Desktop\CString" "C:\Users\Dawid Zadlo\Desktop\CString" "C:\Users\Dawid Zadlo\Desktop\CString\build" "C:\Users\Dawid Zadlo\Desktop\CString\build" "C:\Users\Dawid Zadlo\Desktop\CString\build\CMakeFiles\ContinuousConfigure.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\dawid\Desktop\Json_Pyton\CString C:\Users\dawid\Desktop\Json_Pyton\CString C:\Users\dawid\Desktop\Json_Pyton\CString\build C:\Users\dawid\Desktop\Json_Pyton\CString\build C:\Users\dawid\Desktop\Json_Pyton\CString\build\CMakeFiles\ContinuousConfigure.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ContinuousConfigure.dir/depend
 
