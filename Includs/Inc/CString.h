@@ -16,5 +16,5 @@ void CString_DestroyString(CString** stringToDestroy);
 CString* CString_CreateString(const  char stringToCreate[]);
 
 size_t CString_ReturnStringLength(CString* string);
-void CString_ReplaceString(CString* string,const char stringToCreate[]);
+CString* CString_ReplaceString(CString* string,const char stringToCreate[]);
 void CString_ConcatString(CString* string,const char string2[]);

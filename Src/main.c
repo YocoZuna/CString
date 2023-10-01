@@ -43,7 +43,7 @@ TEST(CStringTestGroup,ReturnLength)
 TEST(CStringTestGroup,ReplaceValString)
 {
     tekst = CString_CreateString(STRING);
-    CString_ReplaceString(tekst,"Ala nie ma kota");
+    tekst = CString_ReplaceString(tekst,"Ala nie ma kota");
     printf("%s",tekst->string);
     TEST_ASSERT_EQUAL_STRING("Ala nie ma kota",tekst->string);
 }
