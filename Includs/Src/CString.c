@@ -19,7 +19,8 @@ CString* CString_CreateString(const  char stringToCreate[])
 }
 void CString_DestroyString(CString** stringToDestroy)
 {
-    *stringToDestroy = NULL;
+    free(*stringToDestroy);
+    *stringToDestroy =NULL;
 }
 
 size_t CString_ReturnStringLength(CString* string)
